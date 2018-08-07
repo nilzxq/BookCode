@@ -96,9 +96,9 @@ public class Problem_08_MaxTree {
 		if (head == null) {
 			return;
 		}
-		printPreOrder(head.left);
+		printInOrder(head.left);
 		System.out.print(head.value + " ");
-		printPreOrder(head.right);
+		printInOrder(head.right);
 	}
 
 	public static void main(String[] args) {
